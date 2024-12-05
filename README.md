@@ -1,9 +1,7 @@
 # Credit Card Customer Report Analysis
 
-## Case Study
-Restaurant ratings in Mexico by real consumers from 2012, including additional information about each restaurant and their cuisines, and each consumer and their preferences.
-## Dataset Description
-Our data set consists of the following observations which include:
+## Objective
+To develop a comprehensive credit card weekly dashboard that provides real-time insights into key performance metrics and trends, enabling stakeholders to monitor and analyze credit card operations effectively.
 
 #### Consumers
 - **Consumer_ID** - Unique identifier for each consumer
