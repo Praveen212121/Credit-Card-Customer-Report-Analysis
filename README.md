@@ -6,52 +6,45 @@ To develop a comprehensive credit card weekly dashboard that provides real-time 
 ## Dataset Description
 Our data set consists of the following observations which include:
 
-#### Consumers
-- **Consumer_ID** - Unique identifier for each consumer
-- **City** - City where the consumer lives
-- **State** - State where the consumer lives
-- **Country** - Country where the consumer lives
-- **Latitude** - Latitude where the consumer lives
-- **Longitude** - Longitude where the consumer lives
-- **Smoker** - Whether the consumer smokes or not
-- **Drink_Level** - Whether the consumer is an abstemious, casual, or social drinker
-- **Transportation_Method** - Whether the consumer transports on foot, by public transport, or by car
-- **Marital_Status** - The consumer's marital status (single or married)
-- **Children** - Whether the consumer has dependent/independent children or kids
-- **Age** - The consumer's age
-- **Occupation** - The consumer's occupation (student, employed, or unemployed)
-- **Budget** - The consumer's budget (low, medium, high)
+## Dataset Description
 
-#### Consumer_Preferences
-- **Consumer_ID** - Unique identifier for each consumer
-- **Preferred_Cuisine** - Types of food the consumer prefers
+### Customer
+- **Client_Num** - Unique identifier for each customer
+- **Customer_Age** - Age of the customer
+- **Gender** - Gender of the customer
+- **Dependent_Count** - Number of dependents associated with the customer
+- **Education_Level** - Education level of the customer
+- **Marital_Status** - Marital status of the customer
+- **state_cd** - State where the customer resides
+- **Zipcode** - Postal code for the customer's location
+- **Car_Owner** - Indicates whether the customer owns a car
+- **House_Owner** - Indicates whether the customer owns a house
+- **Personal_loan** - Indicates whether the customer has a personal loan
+- **contact** - Contact method for reaching the customer
+- **Customer_Job** - Job category of the customer
+- **Income** - Annual income of the customer
+- **Cust_Satisfaction_Score** - Satisfaction score provided by the customer
 
-#### Ratings
-- **Consumer_ID** - Unique identifier for each consumer
-- **Restaurant_ID** -  Unique identifier for each restaurant
-- **Overall_Rating** - The overall rating by the consumer for the restaurant (0=Unsatisfactory, 1=Satisfactory, 2=Highly Satisfactory)
-- **Food_Rating** - The food's rating by the consumer for the restaurant (0=Unsatisfactory, 1=Satisfactory, 2=Highly Satisfactory)
-- **Service_Rating** - The service rating by the consumer for the restaurant (0=Unsatisfactory, 1=Satisfactory, 2=Highly Satisfactory)
-
-#### Restaurants
-- **Restaurant_ID** - Unique identifier for each restaurant
-- **Name** - The restaurant's name
-- **City** - The restaurant's city
-- **State** - The restaurant's state
-- **Country** - The restaurant's country
-- **Zip_Code** - The restaurant's zip code
-- **Latitude** - The restaurant's latitude
-- **Longitude** - The restaurant's longitude
-- **Alcohol_Service** - Whether the restaurant serves no alcohol, wine & beer, or a full bar
-- **Smoking_Allowed** - Whether any smoking is allowed, including in the bar or in smoking sections
-- **Price** - The restaurant's price (low, medium, high)
-- **Franchise** - Whether the restaurant is a franchise
-- **Area** - Whether the restaurant is in an open or closed area
-- **Parking** - Whether the restaurant offers any sort of parking (none, yes, public, valet)
-
-#### Restaurant_Cuisines
-- **Restaurant_ID** -  Unique identifier for each restaurant
-- **Cuisine** -	Types of food the restaurant serves		
+### Credit Card
+- **Client_Num** - Unique identifier for each customer (linked to the customer dataset)
+- **Card_Category** - Type of credit card the customer holds (e.g., Platinum, Gold, etc.)
+- **Annual_Fees** - Annual fee for the credit card
+- **Activation_30_Days** - Indicates if the customer activated the card within 30 days
+- **Customer_Acq_Cost** - Acquisition cost for the customer
+- **Week_Start_Date** - Start date for the data collection week
+- **Week_Num** - Week number of the year for the data collection period
+- **Qtr** - Quarter of the year during which the data was collected
+- **current_year** - The year during which the data was collected
+- **Credit_Limit** - Total credit limit of the customer’s card
+- **Total_Revolving_Bal** - Total revolving balance on the customer's card
+- **Total_Trans_Amt** - Total transaction amount made using the card
+- **Total_Trans_Ct** - Total number of transactions made with the card
+- **Avg_Utilization_Ratio** - Average utilization ratio of the credit card
+- **Use Chip** - Whether the card has been used with a chip
+- **Exp Type** - Type of the expiration (e.g., fraud, theft, etc.)
+- **Interest_Earned** - Interest earned on the customer's card
+- **Delinquent_Acc** - Whether the customer has any delinquent accounts
+		
 
 ## ER Diagram
 ![Restaurant-ratings drawio](https://github.com/karlyndiary/Restaurant-Ratings-Analysis/assets/116041695/90bef193-a0bb-4211-96ca-a7587b16f2d1)
