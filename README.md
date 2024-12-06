@@ -98,12 +98,10 @@ This project involves analyzing a dataset containing customer and credit card in
 - **Customer Retention**:
     - Focus on customers with lower credit limits who have shown consistent payment behavior, as they may have potential for higher card limits.
 
-## Data Visualizations
-(Note: Visualizations would be placed here, but due to text limitations, they cannot be directly displayed. Include graphs and charts based on your analysis, such as bar charts, scatter plots, and histograms.)
+## Dashboard
+![Credit Card Financial Dashboard-Customer](https://github.com/user-attachments/assets/19a359fd-5d9b-49fa-9613-9a7a0cacb7c1)
+![Credit Card Financial Dashboard-Transaction](https://github.com/user-attachments/assets/ce072551-474c-4f94-a397-1264370c35fd)
 
-- **Age Distribution**: A bar chart showing the age distribution of customers.
-- **Credit Limit by Card Type**: A bar chart comparing the average credit limits of different card types.
-- **Payment Behavior**: A pie chart showing the proportion of customers who make minimum payments vs. full payments.
 
 ## Key Metrics & Findings:
 - **Customer Age Group**:
