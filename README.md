@@ -6,8 +6,6 @@ To develop a comprehensive credit card weekly dashboard that provides real-time 
 ## Dataset Description
 Our data set consists of the following observations which include:
 
-## Dataset Description
-
 ### Customer
 - **Client_Num** - Unique identifier for each customer
 - **Customer_Age** - Age of the customer
