@@ -104,6 +104,9 @@ A heatmap was used to visualize delinquency rates across different customer segm
 
 ---
 
+## Dashboard
+
+---
 ## Business Recommendations
 
 1. **Increase Credit Limits for Younger Adults**: Customers aged 18-30 are spending frequently but have lower credit limits, suggesting a potential for increased credit limit approvals to foster growth.
