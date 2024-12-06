@@ -49,7 +49,8 @@ Our data set consists of the following observations which include:
 - Power Query
 - SQL
 - Python (Pandas, NumPy)
-- Jupyter Notebook
+- Power BI
+- Excel
 
 ## Project Description
 This project involves analyzing a dataset containing customer and credit card information, such as customer demographics, credit card details, payment history, and spending behavior. The goal is to uncover trends and generate insights that can be used to optimize customer management and marketing strategies.
