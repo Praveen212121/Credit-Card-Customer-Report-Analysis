@@ -69,27 +69,32 @@ This project involves analyzing a dataset containing customer and credit card in
 
 ## Data Analysis
 
-### Customer Demographics Insights:
-- **Age Distribution**:
-    - The majority of customers are between 30 and 50 years old.
-- **Income Distribution**:
-    - The highest number of customers fall within the middle-income range.
+Customer Segmentation:
 
-### Credit Card Insights:
-- **Credit Limit by Card Type**:
-    - Premium cards have an average credit limit 50% higher than standard cards.
-- **Payment Behavior**:
-    - A significant portion of customers make their minimum payments on time, but there are notable late payments, particularly among those with lower credit limits.
+The dataset provided customer demographics, such as Client_Num, Customer_Age, Gender, Income, and Marital_Status. Analysis showed diverse age groups, with a mix of young adults, middle-aged adults, and seniors across different Income levels.
+Income was a key factor in understanding customer behaviors, with higher income levels corresponding to higher credit limits and card categories.
 
-### Spending Insights:
-- **Monthly Spending by Customer Group**:
-    - Higher income customers tend to spend more on average each month.
-- **Spending on Categories**:
-    - The most common spending categories include groceries, retail, and entertainment.
+Credit Card Utilization:
 
-### Fraud Detection:
-- **Delinquent Accounts**:
-    - A percentage of accounts have missed payments, and this is correlated with low-income customers and high credit card balances.
+The analysis revealed how Credit_Limit and Credit_Balance interact, with some customers utilizing a significant percentage of their available credit. High Credit_Balance relative to Credit_Limit was a key indicator of higher credit risk.
+The dataset contained a significant number of Delinquent_Acc, indicating missed payments. A correlation was observed between low-income customers and high credit card balances, leading to missed payments.
+
+Delinquency Patterns:
+
+The analysis showed that a percentage of accounts have missed payments, with lower-income customers experiencing higher delinquency rates.
+Delinquent_Acc was used to track and identify customers at risk, and these insights can inform strategies to target specific high-risk customer segments for repayment assistance.
+Card Category Insights:
+
+A comparison between the different Card_Category values (e.g., Blue, Gold, Platinum) revealed a clear distinction in income levels and spending behaviors across customers. Premium card categories (e.g., Platinum) had higher annual fees but also attracted higher-income customers with larger credit limits.
+
+Income vs Credit Behavior:
+
+Income and Credit_Limit had a strong relationship, with higher-income individuals receiving higher credit limits. This directly influenced their Credit_Balance, as they were able to carry larger balances without the risk of reaching their limit.
+
+Spending Insights:
+
+Customers with higher incomes generally had higher Credit_Limit but also tended to maintain a higher Credit_Balance. This reflects a trend where customers with more disposable income are likely to spend more, though they may also be at risk of accumulating debt.
+
 
 ## Business Insights:
 - **Targeted Marketing**:
@@ -104,14 +109,28 @@ This project involves analyzing a dataset containing customer and credit card in
 
 
 ## Key Metrics & Findings:
-- **Customer Age Group**:
-    - 40% of customers are between 30 and 50 years old.
-- **Credit Limit Insights**:
-    - Premium cards have an average credit limit of $10,000, while standard cards average $5,000.
-- **Spending Patterns**:
-    - High-income customers spend an average of $2,000/month on their cards.
-- **Payment Timeliness**:
-    - 15% of customers are late on payments, especially among those with a high credit balance and low income.
+Customer Demographics:
+
+The dataset includes customer information such as Client_Num, Customer_Age, Gender, Income, and Marital_Status.
+Key demographic insights reveal a diverse customer base across various Income levels and Age groups, enabling targeted segmentation for more personalized offers.
+
+Credit Card Data:
+
+Card_Category: Different categories (such as Blue, Silver, Gold, Platinum) represent varying levels of services and benefits for customers.
+Credit_Limit: The dataset contains significant variation in credit limits, with higher limits associated with customers in higher-income brackets.
+Annual_Fees: Insights suggest that the Annual_Fees are closely tied to Card_Category, with premium categories charging higher fees.
+Delinquent Accounts:
+
+A percentage of accounts have missed payments, and this is correlated with low-income customers and high credit card balances.
+Delinquent accounts are identified by Delinquent_Acc and indicate a need for targeted credit management solutions.
+
+Credit Utilization:
+
+The dataset reflects the balance between Credit_Limit and Credit_Balance, with some customers utilizing a significant percentage of their credit, leading to a higher risk of delinquency.
+Income and Spending:
+
+Income is a major determinant of credit behavior, with lower-income customers typically carrying higher Credit_Balance to Credit_Limit ratios.
+This highlights potential areas for targeted credit limit adjustments to better manage risk.
 
 ## Conclusion
 This project provides valuable insights into customer spending behaviors, credit usage, and payment habits. By segmenting customers based on income, age, and payment behavior, businesses can create more targeted marketing and retention strategies to enhance customer engagement and profitability.
