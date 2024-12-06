@@ -105,7 +105,9 @@ A heatmap was used to visualize delinquency rates across different customer segm
 ---
 
 ## Dashboard
-![Credit Card Financial Dashboard-Transaction](https://github.com/user-attachments/assets/a55e3c2d-ff10-4e46-a951-31aa866a8202)
+![Credit Card Financial Dashboard-Customer](https://github.com/user-attachments/assets/34ae4539-11b9-484e-87e1-1fe3069c1341)
+![Credit Card Financial Dashboard-Transaction](https://github.com/user-attachments/assets/fc19d07c-e241-430f-bf3b-168a7c2e84aa)
+
 
 
 ---
