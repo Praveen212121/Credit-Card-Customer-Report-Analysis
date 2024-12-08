@@ -1,4 +1,4 @@
-# Credit Card Transaction and Customer Report Analysis
+# Credit Card Transaction and Customer Report Dashboard
 
 ## Objective
 To develop a comprehensive credit card weekly dashboard that provides real-time insights into key performance metrics and trends, enabling stakeholders to monitor and analyze credit card operations effectively.
