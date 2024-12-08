@@ -1,4 +1,6 @@
 # Credit Card Transaction and Customer Report Dashboard
+![card](https://github.com/user-attachments/assets/a1b986b0-f4f4-44e3-a665-6568c4b8d0bb)
+
 
 ## Objective
 To develop a comprehensive credit card weekly dashboard that provides real-time insights into key performance metrics and trends, enabling stakeholders to monitor and analyze credit card operations effectively.
